@@ -44,7 +44,7 @@
     </div>
   </div>
   
-@yield('content')
+  @yield('content')
 
   <!--   Core JS Files   -->
   <script src="{{ asset('backend/assets/js/core/popper.min.js')}}"></script>

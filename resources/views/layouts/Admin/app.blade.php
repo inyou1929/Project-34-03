@@ -18,6 +18,14 @@
         <div class="min-h-screen bg-gray-100">
             @include('layouts.navigation')
 
+            <a class="navbar-brand" href="{{ ur('/')}}">
+                {{ config('app.name', 'Laravel')}}
+            </a>
+
+            <a class="navbar-brand" href="">
+                Admin
+            </a>
+
             <!-- Page Heading -->
             @if (isset($header))
                 <header class="bg-white shadow">
